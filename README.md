@@ -1,0 +1,2 @@
+# PDBlurImage
+UIImageEffects演示如何创建和应用模糊和图像使用vImage色彩影响,石英,UIKit框架。vImage框架适合高性能图像处理。使用vImage,你的应用程序的所有好处向量处理而不需要转换成矢量图你写代码。
