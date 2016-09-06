@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E756395B1D7D809E004C708A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E756395A1D7D809E004C708A /* main.m */; };
+		E756395E1D7D809E004C708A /* PDBlurAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E756395D1D7D809E004C708A /* PDBlurAppDelegate.m */; };
+		E75639641D7D809E004C708A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75639621D7D809E004C708A /* Main.storyboard */; };
+		E75639661D7D809E004C708A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75639651D7D809E004C708A /* Assets.xcassets */; };
+		E75639691D7D809E004C708A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75639671D7D809E004C708A /* LaunchScreen.storyboard */; };
+		E75639721D7D80D0004C708A /* PDBlurViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75639711D7D80D0004C708A /* PDBlurViewController.m */; };
+		E75639751D7D81F2004C708A /* PDBlurImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = E75639741D7D81F2004C708A /* PDBlurImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E75639561D7D809E004C708A /* PDBlurImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDBlurImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E756395A1D7D809E004C708A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E756395C1D7D809E004C708A /* PDBlurAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDBlurAppDelegate.h; sourceTree = "<group>"; };
+		E756395D1D7D809E004C708A /* PDBlurAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDBlurAppDelegate.m; sourceTree = "<group>"; };
+		E75639631D7D809E004C708A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E75639651D7D809E004C708A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E75639681D7D809E004C708A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E756396A1D7D809E004C708A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75639701D7D80D0004C708A /* PDBlurViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDBlurViewController.h; sourceTree = "<group>"; };
+		E75639711D7D80D0004C708A /* PDBlurViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDBlurViewController.m; sourceTree = "<group>"; };
+		E75639731D7D81F2004C708A /* PDBlurImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDBlurImageEffects.h; sourceTree = "<group>"; };
+		E75639741D7D81F2004C708A /* PDBlurImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDBlurImageEffects.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E75639531D7D809E004C708A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E756394D1D7D809E004C708A = {
+			isa = PBXGroup;
+			children = (
+				E75639581D7D809E004C708A /* PDBlurImage */,
+				E75639571D7D809E004C708A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E75639571D7D809E004C708A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E75639561D7D809E004C708A /* PDBlurImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E75639581D7D809E004C708A /* PDBlurImage */ = {
+			isa = PBXGroup;
+			children = (
+				E75639591D7D809E004C708A /* Supporting Files */,
+				E75639701D7D80D0004C708A /* PDBlurViewController.h */,
+				E75639711D7D80D0004C708A /* PDBlurViewController.m */,
+				E75639731D7D81F2004C708A /* PDBlurImageEffects.h */,
+				E75639741D7D81F2004C708A /* PDBlurImageEffects.m */,
+			);
+			path = PDBlurImage;
+			sourceTree = "<group>";
+		};
+		E75639591D7D809E004C708A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E756395C1D7D809E004C708A /* PDBlurAppDelegate.h */,
+				E756395D1D7D809E004C708A /* PDBlurAppDelegate.m */,
+				E75639621D7D809E004C708A /* Main.storyboard */,
+				E75639651D7D809E004C708A /* Assets.xcassets */,
+				E75639671D7D809E004C708A /* LaunchScreen.storyboard */,
+				E756396A1D7D809E004C708A /* Info.plist */,
+				E756395A1D7D809E004C708A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E75639551D7D809E004C708A /* PDBlurImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E756396D1D7D809E004C708A /* Build configuration list for PBXNativeTarget "PDBlurImage" */;
+			buildPhases = (
+				E75639521D7D809E004C708A /* Sources */,
+				E75639531D7D809E004C708A /* Frameworks */,
+				E75639541D7D809E004C708A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDBlurImage;
+			productName = PDBlurImage;
+			productReference = E75639561D7D809E004C708A /* PDBlurImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E756394E1D7D809E004C708A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "彭懂";
+				TargetAttributes = {
+					E75639551D7D809E004C708A = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E75639511D7D809E004C708A /* Build configuration list for PBXProject "PDBlurImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E756394D1D7D809E004C708A;
+			productRefGroup = E75639571D7D809E004C708A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E75639551D7D809E004C708A /* PDBlurImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E75639541D7D809E004C708A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75639691D7D809E004C708A /* LaunchScreen.storyboard in Resources */,
+				E75639661D7D809E004C708A /* Assets.xcassets in Resources */,
+				E75639641D7D809E004C708A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E75639521D7D809E004C708A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E756395E1D7D809E004C708A /* PDBlurAppDelegate.m in Sources */,
+				E75639721D7D80D0004C708A /* PDBlurViewController.m in Sources */,
+				E756395B1D7D809E004C708A /* main.m in Sources */,
+				E75639751D7D81F2004C708A /* PDBlurImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E75639621D7D809E004C708A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75639631D7D809E004C708A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E75639671D7D809E004C708A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E75639681D7D809E004C708A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E756396B1D7D809E004C708A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E756396C1D7D809E004C708A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E756396E1D7D809E004C708A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PDBlurImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dongba.PDBlurImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E756396F1D7D809E004C708A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PDBlurImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Dongba.PDBlurImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E75639511D7D809E004C708A /* Build configuration list for PBXProject "PDBlurImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E756396B1D7D809E004C708A /* Debug */,
+				E756396C1D7D809E004C708A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E756396D1D7D809E004C708A /* Build configuration list for PBXNativeTarget "PDBlurImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E756396E1D7D809E004C708A /* Debug */,
+				E756396F1D7D809E004C708A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E756394E1D7D809E004C708A /* Project object */;
+}
